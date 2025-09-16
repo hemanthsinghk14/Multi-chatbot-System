@@ -183,13 +183,12 @@ const AboutPage = () => {
                           />
                         </div>
                         <div className="text-center sm:text-left space-y-2">
-                          <h4 className="text-xl sm:text-2xl font-bold text-white">Akshay</h4>
-                          <p className="text-indigo-400 font-medium">AI Researcher & Full-Stack Developer</p>
+                          <h4 className="text-xl sm:text-2xl font-bold text-white">Hemanth Singh Mehar</h4>
+                          <p className="text-indigo-400 font-medium">AI Enthusiast</p>
                           <div className="flex flex-wrap justify-center sm:justify-start gap-2 mt-3">
                             
                             <div className="flex items-center gap-2 bg-gradient-to-r from-yellow-500/20 to-orange-500/20 px-3 py-2 rounded-lg border border-yellow-500/30">
-                          <Award className="w-4 h-4 text-yellow-400" />
-                          <span className="text-xs text-yellow-200">Microsoft Intern</span>
+                          
                         </div>
                         <span className="px-3 py-1 bg-indigo-500/20 text-indigo-300 text-xs rounded-full border border-indigo-500/30">
                               B.Tech
