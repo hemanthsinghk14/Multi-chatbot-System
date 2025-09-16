@@ -53,6 +53,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 ➡️ Backend runs at: http://localhost:8000
+
 3. Frontend Setup
 ```bash
 cd frontend
@@ -92,6 +93,7 @@ Run production tests:
 
 Contributions are welcome!
 Please fork the repo and create a pull request with your improvements.
+
 
 
 
