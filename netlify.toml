@@ -1,0 +1,44 @@
+[build]
+  command = "chmod +x ./build.sh && ./build.sh"
+  publish = "frontend/dist"
+
+[functions]
+  directory = "backend/netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "20"
+  PYTHON_VERSION = "3.9"
+
+# CRITICAL: Updated redirects for /api/chatbots/* endpoints
+[[redirects]]
+  from = "/api/chatbots/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/chatbots"
+  to = "/.netlify/functions/api"
+  status = 200
+  force = true
+
+# Fallback redirects
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+  force = true
+
+# Frontend SPA redirects
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# CORS headers
+[[headers]]
+  for = "/.netlify/functions/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Authorization"
