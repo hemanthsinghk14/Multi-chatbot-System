@@ -43,19 +43,24 @@ Multi-chatbot-System/
 ```bash
 git clone https://github.com/hemanthsinghk14/Multi-chatbot-System.git
 cd Multi-chatbot-System
+```
 2. Backend Setup
+```bash
 cd backend
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload
+```
 ➡️ Backend runs at: http://localhost:8000
 3. Frontend Setup
+```bash
 cd frontend
 npm install
 npm start
-➡️ Frontend runs at: http://localhost:3000
 ```
+➡️ Frontend runs at: http://localhost:3000
+
 🚀Deployment :-
 
 This project includes preconfigured deployment settings.
@@ -87,6 +92,7 @@ Run production tests:
 
 Contributions are welcome!
 Please fork the repo and create a pull request with your improvements.
+
 
 
 
