@@ -197,9 +197,7 @@ const AboutPage = () => {
                           </div>
                         </div>
                       </div>
-                      <p className="text-slate-400 text-sm mt-6 leading-relaxed">
-                        Microsoft intern with a passion for technology and an insatiable curiosity for emerging innovations. As a dedicated student pursuing advanced degrees, I bring hands-on experience from my internship while bridging academic knowledge with real-world applications in AI and software development.
-                      </p>
+                      
                     </div>
                   </div>
 
