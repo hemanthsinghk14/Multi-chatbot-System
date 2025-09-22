@@ -267,19 +267,19 @@ const AboutPage = () => {
                     <div className="space-y-4">
                       <ContactLink 
                         icon={Mail}
-                        href="mailto:dakshay4518@gmail.com"
-                        text="dakshay4518@gmail.com"
+                        href="mailto:hemanthsinghk14@gmail.com"
+                        text="hemanthsinghk14@gmail.com"
                         label="Email"
                       />
                       <ContactLink 
                         icon={Github}
-                        href="https://github.com/Dainampally-Akshay18"
+                        href="https://github.com/hemanthsinghk14"
                         text="GitHub Profile"
                         label="Code Repository"
                       />
                       <ContactLink 
                         icon={Linkedin}
-                        href="https://www.linkedin.com/in/dainampallyakshay/"
+                        href="https://www.linkedin.com/in/hemanthsinghk15/"
                         text="LinkedIn Profile"
                         label="Professional Network"
                       />
