@@ -284,21 +284,7 @@ const AboutPage = () => {
                         label="Professional Network"
                       />
                     </div>
-
-                    {/* Achievement Badges */}
-                    <div className="mt-8">
-                      <h5 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4">Achievements</h5>
-                      <div className="flex flex-wrap gap-3">
-                        <div className="flex items-center gap-2 bg-gradient-to-r from-yellow-500/20 to-orange-500/20 px-3 py-2 rounded-lg border border-yellow-500/30">
-                          <Award className="w-4 h-4 text-yellow-400" />
-                          <span className="text-xs text-yellow-200">Microsoft Intern</span>
-                        </div>
-                        <div className="flex items-center gap-2 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 px-3 py-2 rounded-lg border border-blue-500/30">
-                          <BookOpen className="w-4 h-4 text-blue-400" />
-                          <span className="text-xs text-blue-200">Google Student Club Web Dev Lead</span>
-                        </div>
-                      </div>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
